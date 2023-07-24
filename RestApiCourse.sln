@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.GettingStarted", "1.GettingStarted", "{437837AA-AECD-4F38-BBB5-AE8873E1DCCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helpers", "Helpers", "{E206559B-5371-451B-AD2E-D5E304174D51}"
+	ProjectSection(SolutionItems) = preProject
+		Helpers\Course.postman_collection.json = Helpers\Course.postman_collection.json
+		Helpers\movies.json = Helpers\movies.json
+		Helpers\Identity.Api\appsettings.Development.json = Helpers\Identity.Api\appsettings.Development.json
+		Helpers\Identity.Api\appsettings.json = Helpers\Identity.Api\appsettings.json
+		Helpers\Identity.Api\Identity.Api.csproj = Helpers\Identity.Api\Identity.Api.csproj
+		Helpers\Identity.Api\Program.cs = Helpers\Identity.Api\Program.cs
+		Helpers\Identity.Api\Properties\launchSettings.json = Helpers\Identity.Api\Properties\launchSettings.json
+		Helpers\Identity.Api\TokenGenerationRequest.cs = Helpers\Identity.Api\TokenGenerationRequest.cs
+		Helpers\Identity.Api\Controllers\IdentityController.cs = Helpers\Identity.Api\Controllers\IdentityController.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Application", "1.GettingStarted\Movies.Application\Movies.Application.csproj", "{46BCBFD6-D4A5-48AB-A0E0-ABBEA8CAE2ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Contracts", "1.GettingStarted\Movies.Contracts\Movies.Contracts.csproj", "{EAABC916-D2E8-4997-9FC0-2E10AA14EFCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Api", "1.GettingStarted\Movies.Api\Movies.Api.csproj", "{AF2EA2D7-5308-44C6-895D-91A335E49A70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{39CEBE8B-D1C5-4EE5-BDA2-C495656CCBD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Api.Sdk", "1.GettingStarted\Movies.Api.Sdk\Movies.Api.Sdk.csproj", "{B0C5F1D6-44CD-46E7-AA52-89C13D7D8C59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Api.Sdk.Consumer", "1.GettingStarted\Movies.Api.Sdk.Consumer\Movies.Api.Sdk.Consumer.csproj", "{095C7F56-2312-494A-A57C-D6030C5F9883}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{46BCBFD6-D4A5-48AB-A0E0-ABBEA8CAE2ED} = {437837AA-AECD-4F38-BBB5-AE8873E1DCCC}
+		{EAABC916-D2E8-4997-9FC0-2E10AA14EFCE} = {437837AA-AECD-4F38-BBB5-AE8873E1DCCC}
+		{AF2EA2D7-5308-44C6-895D-91A335E49A70} = {437837AA-AECD-4F38-BBB5-AE8873E1DCCC}
+		{B0C5F1D6-44CD-46E7-AA52-89C13D7D8C59} = {437837AA-AECD-4F38-BBB5-AE8873E1DCCC}
+		{095C7F56-2312-494A-A57C-D6030C5F9883} = {437837AA-AECD-4F38-BBB5-AE8873E1DCCC}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46BCBFD6-D4A5-48AB-A0E0-ABBEA8CAE2ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46BCBFD6-D4A5-48AB-A0E0-ABBEA8CAE2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46BCBFD6-D4A5-48AB-A0E0-ABBEA8CAE2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46BCBFD6-D4A5-48AB-A0E0-ABBEA8CAE2ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAABC916-D2E8-4997-9FC0-2E10AA14EFCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAABC916-D2E8-4997-9FC0-2E10AA14EFCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAABC916-D2E8-4997-9FC0-2E10AA14EFCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAABC916-D2E8-4997-9FC0-2E10AA14EFCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF2EA2D7-5308-44C6-895D-91A335E49A70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF2EA2D7-5308-44C6-895D-91A335E49A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF2EA2D7-5308-44C6-895D-91A335E49A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF2EA2D7-5308-44C6-895D-91A335E49A70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0C5F1D6-44CD-46E7-AA52-89C13D7D8C59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0C5F1D6-44CD-46E7-AA52-89C13D7D8C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0C5F1D6-44CD-46E7-AA52-89C13D7D8C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0C5F1D6-44CD-46E7-AA52-89C13D7D8C59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{095C7F56-2312-494A-A57C-D6030C5F9883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{095C7F56-2312-494A-A57C-D6030C5F9883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{095C7F56-2312-494A-A57C-D6030C5F9883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{095C7F56-2312-494A-A57C-D6030C5F9883}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
